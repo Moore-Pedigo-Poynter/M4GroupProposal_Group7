@@ -45,6 +45,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="30"/>
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="H7f-zs-G1o" kind="presentation" id="DAR-zZ-zMv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVY-vt-HMX">
                                 <rect key="frame" x="22" y="434" width="349" height="94"/>
@@ -54,6 +57,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="30"/>
                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="s9i-T8-DP0" kind="presentation" id="9RM-qp-0gc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-41-n0A">
                                 <rect key="frame" x="22" y="569" width="349" height="94"/>
@@ -63,6 +69,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="30"/>
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yj7-yG-E3y" kind="presentation" id="cuh-xf-o53"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -85,6 +94,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-135.1145038167939" y="-18.30985915492958"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iIe-xS-FFw">
+            <objects>
+                <viewController id="s9i-T8-DP0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="reZ-pV-IVs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CdZ-YP-BF5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0R-O0-le2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-135" y="720"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jkP-vU-12e">
+            <objects>
+                <viewController id="H7f-zs-G1o" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gi9-sa-vNR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rgX-U0-D0t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w42-BL-JA4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="718" y="3"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YK9-s0-CXu">
+            <objects>
+                <viewController id="yj7-yG-E3y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aD1-ps-Fjg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JMG-9l-EVH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOe-J0-E30" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="650" y="720"/>
         </scene>
     </scenes>
     <resources>

@@ -16,6 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_background" translatesAutoresizingMaskIntoConstraints="NO" id="v8p-Uq-iMz">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jwg-hO-u7S">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Proposal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5x-6e-hBY">
                                 <rect key="frame" x="0.0" y="100" width="393" height="48"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
@@ -23,7 +30,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password Generator / Verifier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NG0-kj-qpG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password Generator / Verifier" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NG0-kj-qpG">
                                 <rect key="frame" x="22" y="174" width="349" height="34"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -31,15 +38,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Xander J. Moore, Charles Pedigo, and Jackson Poynter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9u-uQ-LEn">
-                                <rect key="frame" x="67" y="227" width="258" height="40.666666666666686"/>
+                                <rect key="frame" x="67" y="227" width="258" height="48"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8Y-Sm-w7a">
-                                <rect key="frame" x="22" y="302" width="349" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8Y-Sm-w7a">
+                                <rect key="frame" x="22" y="302" width="349" height="51.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="💡Step 1: Idea Draft" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="30"/>
@@ -49,9 +55,8 @@
                                     <segue destination="H7f-zs-G1o" kind="presentation" id="DAR-zZ-zMv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVY-vt-HMX">
-                                <rect key="frame" x="22" y="434" width="349" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVY-vt-HMX">
+                                <rect key="frame" x="22" y="434" width="349" height="51.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="🖥️Step 2: UI Design" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="30"/>
@@ -61,9 +66,8 @@
                                     <segue destination="s9i-T8-DP0" kind="presentation" id="9RM-qp-0gc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-41-n0A">
-                                <rect key="frame" x="22" y="569" width="349" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-41-n0A">
+                                <rect key="frame" x="22" y="569" width="349" height="51.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="📄Step 3: Planning" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="30"/>
@@ -77,15 +81,32 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="v8p-Uq-iMz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="56X-pH-rqF"/>
                             <constraint firstItem="NG0-kj-qpG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="5z1-l0-qVq"/>
+                            <constraint firstAttribute="bottom" secondItem="Jwg-hO-u7S" secondAttribute="bottom" id="A88-49-aRa"/>
+                            <constraint firstItem="Tzx-41-n0A" firstAttribute="top" secondItem="EVY-vt-HMX" secondAttribute="bottom" constant="83.329999999999998" id="HrL-YQ-ltl"/>
+                            <constraint firstAttribute="bottom" secondItem="v8p-Uq-iMz" secondAttribute="bottom" id="Hxe-JF-Jxz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EVY-vt-HMX" secondAttribute="trailing" constant="22" id="IPO-GQ-f1i"/>
+                            <constraint firstItem="Jwg-hO-u7S" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LiO-Bq-98l"/>
+                            <constraint firstItem="v8p-Uq-iMz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="M3h-vA-joa"/>
+                            <constraint firstItem="Tzx-41-n0A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="NNQ-sB-qNV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tzx-41-n0A" secondAttribute="trailing" constant="22" id="WJo-gV-FFR"/>
+                            <constraint firstItem="p8Y-Sm-w7a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="Z8F-ci-I3z"/>
+                            <constraint firstItem="Jwg-hO-u7S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fkJ-o1-ydk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NG0-kj-qpG" secondAttribute="trailing" constant="22" id="giP-7I-AEM"/>
                             <constraint firstItem="e5x-6e-hBY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hzQ-va-bju"/>
                             <constraint firstItem="G9u-uQ-LEn" firstAttribute="top" secondItem="NG0-kj-qpG" secondAttribute="bottom" constant="19" id="iSJ-wB-nZl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G9u-uQ-LEn" secondAttribute="trailing" constant="68" id="iqy-Zi-ewr"/>
                             <constraint firstItem="e5x-6e-hBY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iy7-Rx-P9U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p8Y-Sm-w7a" secondAttribute="trailing" constant="22" id="lZW-vv-tsC"/>
+                            <constraint firstItem="v8p-Uq-iMz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nxe-N7-ZdC"/>
                             <constraint firstItem="e5x-6e-hBY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="rl3-Zp-2Ra"/>
+                            <constraint firstItem="EVY-vt-HMX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="sIh-Xq-sxO"/>
+                            <constraint firstItem="Jwg-hO-u7S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="u4Z-ez-RK8"/>
+                            <constraint firstItem="p8Y-Sm-w7a" firstAttribute="top" secondItem="G9u-uQ-LEn" secondAttribute="bottom" constant="27" id="vWc-gL-Q9F"/>
                             <constraint firstItem="NG0-kj-qpG" firstAttribute="top" secondItem="e5x-6e-hBY" secondAttribute="bottom" constant="26" id="vnR-mh-hLy"/>
                             <constraint firstItem="G9u-uQ-LEn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="yMc-mU-Ual"/>
+                            <constraint firstItem="EVY-vt-HMX" firstAttribute="top" secondItem="p8Y-Sm-w7a" secondAttribute="bottom" constant="80.329999999999998" id="zfJ-i1-zc3"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -102,13 +123,37 @@
                     <view key="view" contentMode="scaleToFill" id="reZ-pV-IVs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UI Design Logistics" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0g-Jg-Xhu">
+                                <rect key="frame" x="0.0" y="59" width="393" height="36"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atO-Wl-Sw1">
+                                <rect key="frame" x="0.0" y="159" width="393" height="534.66666666666663"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <string key="text">The project would be designed primarily with buttons, labels, and perhaps text fields. The design would focus on being clear as to each element's purpose and function while remaining formal and easy to look at. Passwords could be generated with the press of a button, and could be modified as the user wishes by putting the result in a text field. This then allows for copy and pasting for either password verification using labels, or actual usage in other apps and websites.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="CdZ-YP-BF5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F0g-Jg-Xhu" firstAttribute="top" secondItem="CdZ-YP-BF5" secondAttribute="top" id="HfH-hi-FDS"/>
+                            <constraint firstItem="F0g-Jg-Xhu" firstAttribute="trailing" secondItem="CdZ-YP-BF5" secondAttribute="trailing" id="Neo-fJ-d1f"/>
+                            <constraint firstItem="atO-Wl-Sw1" firstAttribute="trailing" secondItem="CdZ-YP-BF5" secondAttribute="trailing" id="WuH-eP-3RH"/>
+                            <constraint firstItem="atO-Wl-Sw1" firstAttribute="top" secondItem="F0g-Jg-Xhu" secondAttribute="bottom" constant="64" id="Y6d-XL-0Mg"/>
+                            <constraint firstItem="atO-Wl-Sw1" firstAttribute="leading" secondItem="CdZ-YP-BF5" secondAttribute="leading" id="af4-bt-2eJ"/>
+                            <constraint firstItem="F0g-Jg-Xhu" firstAttribute="leading" secondItem="CdZ-YP-BF5" secondAttribute="leading" id="oS5-R7-QvH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N0R-O0-le2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-135" y="720"/>
+            <point key="canvasLocation" x="-135.1145038167939" y="719.71830985915494"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jkP-vU-12e">
@@ -117,13 +162,38 @@
                     <view key="view" contentMode="scaleToFill" id="gi9-sa-vNR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idea Draft for Password Generator/Verifier" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo1-H4-taH">
+                                <rect key="frame" x="0.0" y="59.000000000000007" width="393" height="71.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXD-6t-cUN">
+                                <rect key="frame" x="0.0" y="160.00000000000003" width="393" height="465.66666666666674"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <string key="text">The project would work as an app that generates and verifies passwords for the user. There could be a navigation menu that leads to a generation page, which generates passwords of acceptable length and complexity based on certain criteria. There would also be a verification page which ensures a password is secure under certain constraints.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rgX-U0-D0t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OXD-6t-cUN" firstAttribute="leading" secondItem="rgX-U0-D0t" secondAttribute="leading" id="Cfl-al-pXq"/>
+                            <constraint firstItem="OXD-6t-cUN" firstAttribute="trailing" secondItem="rgX-U0-D0t" secondAttribute="trailing" id="Ia9-nR-KXl"/>
+                            <constraint firstItem="fo1-H4-taH" firstAttribute="trailing" secondItem="rgX-U0-D0t" secondAttribute="trailing" id="Myr-KO-EDD"/>
+                            <constraint firstItem="fo1-H4-taH" firstAttribute="leading" secondItem="rgX-U0-D0t" secondAttribute="leading" id="WM0-nK-61w"/>
+                            <constraint firstItem="OXD-6t-cUN" firstAttribute="top" secondItem="fo1-H4-taH" secondAttribute="bottom" constant="29.329999999999998" id="k7W-FJ-VBB"/>
+                            <constraint firstItem="fo1-H4-taH" firstAttribute="top" secondItem="rgX-U0-D0t" secondAttribute="top" id="tdl-h3-lfQ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w42-BL-JA4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718" y="3"/>
+            <point key="canvasLocation" x="716.79389312977094" y="2.8169014084507045"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YK9-s0-CXu">
@@ -132,16 +202,45 @@
                     <view key="view" contentMode="scaleToFill" id="aD1-ps-Fjg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Planning and Scheduling" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDf-2o-4nN">
+                                <rect key="frame" x="0.0" y="59.000000000000007" width="393" height="71.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCe-Af-WuW">
+                                <rect key="frame" x="0.0" y="172" width="393" height="515.66666666666663"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <string key="text">The project's effort would be divided equally among the three group members, with one working on the navigation menu, one on password generation, and one on password verification. These roles are flexible, with group members focusing and prioritizing certain project components as needed. The project design UI would be finished first, especially the navigation menu, followed by generation and verification coding. Any time left over could be spend improving the UI and further polish.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="JMG-9l-EVH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JCe-Af-WuW" firstAttribute="trailing" secondItem="JMG-9l-EVH" secondAttribute="trailing" id="2Wq-0g-tK6"/>
+                            <constraint firstItem="JCe-Af-WuW" firstAttribute="top" secondItem="LDf-2o-4nN" secondAttribute="bottom" constant="41.329999999999998" id="5gH-da-MaF"/>
+                            <constraint firstItem="LDf-2o-4nN" firstAttribute="leading" secondItem="JMG-9l-EVH" secondAttribute="leading" id="DuT-1a-Lv0"/>
+                            <constraint firstItem="LDf-2o-4nN" firstAttribute="trailing" secondItem="JMG-9l-EVH" secondAttribute="trailing" id="J0l-dS-SMB"/>
+                            <constraint firstItem="LDf-2o-4nN" firstAttribute="top" secondItem="JMG-9l-EVH" secondAttribute="top" id="J2B-qg-8fO"/>
+                            <constraint firstItem="JCe-Af-WuW" firstAttribute="leading" secondItem="JMG-9l-EVH" secondAttribute="leading" id="XBS-LY-7RY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZOe-J0-E30" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="650" y="720"/>
+            <point key="canvasLocation" x="649.61832061068696" y="719.71830985915494"/>
         </scene>
     </scenes>
     <resources>
+        <image name="phone_background" width="1121" height="1996"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
